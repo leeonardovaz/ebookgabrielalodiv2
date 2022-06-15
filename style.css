@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+
+body{
+    background-color: #C2D4B3  ;
+    margin: auto;
+    min-width: 300px;
+   
+
+}
+.container-conteudo{
+    margin-top: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fotogabi{
+    max-width: 600px;
+    max-height: 600px;
+    border-radius: 400px;
+    box-shadow: 10px 5px 5px gray;
+}
+
+.conteudo-texto{
+    display: flex;
+    align-items: center;
+    color: #004AAD;
+    flex-direction: column;
+    opacity: 1
+}
+
+.nome{
+    margin-bottom: 0;
+    font-size: 120px;
+    text-align: center;
+}
+
+.profissao-especializacao{
+    margin-top: -30px;
+    height: 30px;
+    padding-top: -100px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.paragrafo{
+    padding-top: 125px;
+}
+
+
+
+.paragrafo{
+    text-align: center;
+    font-size: 25px;
+    color: #008037;
+    padding-bottom: 20px;
+}
+
+button{
+    
+    width: 120px;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background-color: #D1ABA7;
+    color: white;
+    font-size: 20px;
+    transition: 0.3s;
+    box-shadow: 5px 5px 5px grey;
+    cursor: pointer;
+    
+
+}
+.button span {
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .button:hover span {
+    padding-right: 15px;
+  }
+
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+
+
+.botaowhats{
+    gap: 20px;
+    padding-top: 50px;
+    display: flex;
+    gap: 200px;
+    justify-content: space-around;
+    margin-left: 230px;
+    margin-right: auto;
+    text-align: center;
+}
+
+.botaowhatsapp{
+    width: 25px;
+    height: 25px;
+    border: none;
+}
+
+.posicaowhats{
+    text-decoration: none;
+    border: none;
+    text-decoration-color: none;
+    display: flex;
+    align-items: center;
+}
+
+.botaoinstagram{
+    width: 26px;
+    height: 26px;
+    border: none;
+    text-align: center;
+}
+
+.posicaoinstagram{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 500px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .paragrafo{
+        padding-top: 20px;
+        font-size: 20px;
+    }
+    .nome{
+        font-size: 50px;
+    }
+    .profissao-especializacao{
+        font-size: 19px;
+        padding-top: 15px;
+        
+    }
+
+    .botaowhats{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container-conteudo{
+        margin-top: 20px;
+    }
+}
+
