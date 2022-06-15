@@ -149,11 +149,11 @@ button{
         font-size: 20px;
     }
     .nome{
-        font-size: 50px;
+        font-size: 30px;
     }
     .profissao-especializacao{
-        font-size: 19px;
-        padding-top: 15px;
+        font-size: 12px;
+        padding-top: 20px;
         
     }
 
@@ -166,6 +166,13 @@ button{
     }
     .container-conteudo{
         margin-top: 20px;
+    }
+    .fotogabi{
+        max-width: 300px;
+        max-height: 300px;
+    }
+    .CRN{
+        font-size: 12px;
     }
 }
 
